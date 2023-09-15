@@ -11,7 +11,7 @@ Hello people of the world my name is Sean. Here we will be ytalkimg about me and
 
 ## Recent Post
 <ul>
-{% for post in site.post}
+{% for post in site.posts%}
 <li>
 <a href="/blog/{{post.url}}">{{post.title}}</a>
 </li>
