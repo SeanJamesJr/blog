@@ -13,7 +13,7 @@ Hello people of the world my name is Sean. Here we will be ytalkimg about me and
 <ul>
 {% for post in site.posts%}
 <li>
-<a href="/blog/{{post.url}}">{{post.title}}</a>
+<a href="/blog{{post.url}}">{{post.title}}</a>
 </li>
 {%endfor%}
 </ul>
